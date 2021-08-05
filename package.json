@@ -1,6 +1,6 @@
 {
     "name": "@youtwitface/ntcjs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Node CommonJS compatible wrapper for the Name That Color library (ntc js) - http://chir.ag/projects/ntc/",
     "main": "./lib/index.js",
     "scripts": {
