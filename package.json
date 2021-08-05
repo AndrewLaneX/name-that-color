@@ -1,25 +1,36 @@
 {
-    "name": "ntcjs",
-    "version": "1.1.2",
+    "name": "@youtwitface/ntcjs",
+    "version": "1.0.0",
     "description": "A Node CommonJS compatible wrapper for the Name That Color library (ntc js) - http://chir.ag/projects/ntc/",
-    "main": "./src/index.js",
+    "main": "./lib/index.js",
     "scripts": {
-        "test": "tape ./test/*.js"
+        "build": "tsc",
+        "test": "tsc --noEmit"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pbojinov/name-that-color.git"
+        "url": "git+https://github.com/AndrewLaneX/name-that-color.git"
     },
-    "keywords": ["name", "that", "color", "hex", "rgb", "hue", "ntc", "ntc.js"],
+    "keywords": [
+        "name",
+        "that",
+        "color",
+        "hex",
+        "rgb",
+        "hue",
+        "ntc",
+        "ntc.js"
+    ],
     "author": "Petar Bojinov (petarbojinov@gmail.com)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/pbojinov/name-that-color/issues"
+        "url": "https://github.com/AndrewLaneX/name-that-color/issues"
     },
-    "homepage": "https://github.com/pbojinov/name-that-color#readme",
+    "homepage": "https://github.com/AndrewLaneX/name-that-color#readme",
     "devDependencies": {
-        "tap": "^10.7.1",
-        "tap-spec": "^4.1.1",
-        "tape": "^4.8.0"
+        "@typescript-eslint/eslint-plugin": "^4.29.0",
+        "@typescript-eslint/parser": "^4.29.0",
+        "eslint": "^7.32.0",
+        "typescript": "^4.3.5"
     }
 }
