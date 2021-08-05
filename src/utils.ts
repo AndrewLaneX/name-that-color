@@ -19,7 +19,7 @@ export const hsl = (color: string): [number, number, number] => {
 
     let h = 0;
     let s = 0;
-    let l = (min + max) / 2;
+    const l = (min + max) / 2;
 
     if (l > 0 && l < 1) {
         s = delta / (l < 0.5 ? 2 * l : 2 - 2 * l);
